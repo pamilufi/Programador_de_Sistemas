@@ -6,7 +6,11 @@ export function prova(nota) {
 }
 
 export function parOuImpar(numero) {
-    return "Par"
+    if (numero % 2 === 0) {
+        return "Par"
+
+    }
+    return "Impar"
 
 
 }
