@@ -14,3 +14,7 @@ export function parOuImpar(numero) {
 
 
 }
+
+export function positivoOuNegativo(num){
+    
+}
