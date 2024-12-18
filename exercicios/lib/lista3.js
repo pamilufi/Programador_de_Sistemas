@@ -15,6 +15,16 @@ export function parOuImpar(numero) {
 
 }
 
-export function positivoOuNegativo(num){
-    
-}
+export function positivoOuNegativo (numero) {
+    const numeroConvertido = Number(numero);
+  
+    if (isNaN(numeroConvertido)) {
+      return "Entrada inválida: não é um número";
+    } else if (numeroConvertido > 0) {
+      return "Positivo";
+    } else if (numeroConvertido < 0) {
+      return "Negativo";
+    } else {
+      return "Zero";
+    }
+  }
