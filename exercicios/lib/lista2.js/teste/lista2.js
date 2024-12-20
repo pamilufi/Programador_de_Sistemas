@@ -78,3 +78,8 @@ export function dobro(numero) {
     const pi = 3.14159;
     return 2 * pi * raio;
   }
+
+
+  export function celsiusParaFahrenheit(celsius) {
+    return (celsius * 9/5) + 32;
+  }
