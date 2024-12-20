@@ -31,3 +31,16 @@ var palavras = frase.split(' -- ');
 
 var frase = "Rua A -- Bairro B -- Cidade C -- Estado D";
 var palavras = frase.split(' -- ');
+
+
+export var frase = "/usr/local/bin";
+// var fase = "/home/user/documents";
+// var frase = "/var/www/html";
+var palavras = frase.split('/');
+
+var frase = "/home/user/documents";
+var palavras = frase.split('/');
+
+var frase = "/var/www/html";
+var palavras = frase.split('/');
+
