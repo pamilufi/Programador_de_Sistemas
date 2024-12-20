@@ -146,3 +146,8 @@ export function verificarPrimo(num) {
  const numeros = [7, 10, 13, 0, 1, 2, 327, 847, 1573, 31, -3, -31]
  const primos = numeros.filter(verificarPrimo);
  
+
+ export function Tabuada(n) {
+  for(var k=0; k <= 10;console.log('${n} x ${k} = ${n*(k++}'for(var n=1; n<=10; Tabuada(n++)))));
+
+}
