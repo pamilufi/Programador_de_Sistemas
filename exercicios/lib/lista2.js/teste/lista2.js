@@ -83,3 +83,9 @@ export function dobro(numero) {
   export function celsiusParaFahrenheit(celsius) {
     return (celsius * 9/5) + 32;
   }
+
+
+  export function volumeEsfera(raio) {
+    const pi = 3.14159;
+    return (4/3) * pi * Math.pow(raio, 3);
+  }
