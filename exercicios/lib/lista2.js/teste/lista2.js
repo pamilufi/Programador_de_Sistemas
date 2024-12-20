@@ -72,3 +72,9 @@ export function dobro(numero) {
   export function raizQuadrada(numero) {
     return Math.sqrt(numero);
   }
+
+
+  export function perimetroCirculo(raio) {
+    const pi = 3.14159;
+    return 2 * pi * raio;
+  }
