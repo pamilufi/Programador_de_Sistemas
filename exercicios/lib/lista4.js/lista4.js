@@ -52,3 +52,37 @@ export var arr = [1, 2, 3, 4, 5]
 
 export var numeros = [1, 2, 3,4,5];
 numeros.push(6);
+
+
+export const array9 = [1, 2, 3];
+const array8 = [4, 5, 6];
+const array7 = array9.concat(array2);
+
+const arraya = ["a", "b"];
+const arrayb = ["c", "d"];
+const arrayc = arraya.concat(arrayb);
+
+const a1 = [];
+const b2 = [1, 2, 3];
+const c3 = a1.concat(b2);
+
+const aa1 = [1, 2, 3];
+const bb2 = [];
+const cc3 = aa1.concat(bb2);
+
+const d1 = [];
+const d2 = [];
+const d3 = d1.concat(d2);
+
+export const lista = [2, 4, 6, 8]
+function soma(a, b){
+  return a + b;
+}
+
+const total = lista.reduce(soma, 0);
+
+
+export function somaPares(arr) {
+    return arr.filter(num => num % 2 === 0)  
+              .reduce((soma, num) => soma + num, 0); 
+}
