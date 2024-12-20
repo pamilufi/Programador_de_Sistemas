@@ -46,57 +46,65 @@ export function menorNumero(numero1, numero2, numero3) {
 }
 
 
-export function encontrarMaior (num1,num2,num3){
-let maior = num1; 
+export function encontrarMaior(num1, num2, num3) {
+  let maior = num1;
 }
- if (num2 > maior){
+if (num2 > maior) {
   maior = num2;
 }
-if (num3 > maior){
+if (num3 > maior) {
   maior = num3;
-} 
+}
 return maior;
 
 
-export function saoMultiplos (num1,num2)
-if (num1 === 0 || num2 === 0)
-{}  return false;
+export function saoMultiplos(num1, num2)
+if (num1 === 0 || num2 === 0) { } return false;
 
 return num1 % num2 === 0 || num2 % num1 === 0;
 
 
-export function anoBissexto (ano)
-if (ano % 4 == 0 % 100 != 0) or (ano % 400 == 0)
-    return True
-    return False
+export function anoBissexto(ano)
+if (ano % 4 == 0 % 100 != 0) or(ano % 400 == 0)
+return True
+return False
 
-print(ano_bissexto(ano))  
+print(ano_bissexto(ano))
 
 
-export function ehVolgal (caractere) {
-const vogais = 'aeiou'
-const caractereMinusculo = caractere.toLowerCase();
+export function ehVolgal(caractere) {
+  const vogais = 'aeiou'
+  const caractereMinusculo = caractere.toLowerCase();
 }
 return vogais.includes(caractereMinusculo);
-function verificarVogalConsoante (caractere){
-  if(ehVolgal(caractere)){
+function verificarVogalConsoante(caractere) {
+  if (ehVolgal(caractere)) {
     return "Volgal"
   } else } {
-    return "Consoante";
-  }
+  return "Consoante";
+}
 
 
-  export function calcularNota(porcentagem) {
-    switch (true) {
-      case porcentagem >= 90:
-        return 'A';
-      case porcentagem >= 80:
-        return 'B';
-      case porcentagem >= 70:
-        return 'C';
-      case porcentagem >= 60:
-        return 'D'; 1 
-      default:
-        return 'F';
-    }
+export function calcularNota(porcentagem) {
+  switch (true) {
+    case porcentagem >= 90:
+      return 'A';
+    case porcentagem >= 80:
+      return 'B';
+    case porcentagem >= 70:
+      return 'C';
+    case porcentagem >= 60:
+      return 'D'; 1
+    default:
+      return 'F';
   }
+}
+
+
+export function somaAteN(n) {
+  let soma = 0;
+  for (let i = 1; i <= n; i++) {
+    soma += i;
+  }
+  return soma;
+}
