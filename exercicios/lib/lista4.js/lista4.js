@@ -86,3 +86,18 @@ export function somaPares(arr) {
     return arr.filter(num => num % 2 === 0)  
               .reduce((soma, num) => soma + num, 0); 
 }
+
+export function calcularMedia(arr) {
+    if (arr.length === 0) {
+        return 0;  
+    }
+    
+    let soma = 0;
+    for (let i = 0; i < arr.length; i++) {
+        soma += arr[i];
+    }
+    
+    return soma / arr.length;
+}
+
+export
