@@ -31,3 +31,10 @@ export function calcularMedia(num1, num2, num3) {
 }
 let media1 = calcularMedia(10, 20, 30);
 let media2 = calcularMedia(5, 15, 25);
+
+
+export function divisaoInteira(dividendo, divisor) {
+    // A operação de divisão inteira em JavaScript é feita usando o operador 'Math.floor()'
+    let resultado = Math.floor(dividendo / divisor);
+    return resultado;
+  }
