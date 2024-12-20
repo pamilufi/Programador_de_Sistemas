@@ -118,3 +118,8 @@ export function maiorNumero(arr) {
     }
     return Math.max(...arr);  
 }
+
+
+export function removerEspacos(str) {
+    return str.replace(/\s+/g, '');  
+}
