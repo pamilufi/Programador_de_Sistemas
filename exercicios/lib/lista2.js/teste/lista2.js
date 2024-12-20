@@ -55,4 +55,11 @@ export function divisaoInteira(dividendo, divisor) {
 
 export function areaRetangulo(largura, altura) {
     return largura * altura;
-}
+}  
+
+export { escreverOlaMundo } from "./teste/lista2.js";
+
+export function potencia(base, expoente) {
+    return Math.pow(base, expoente);
+  }
+  let resultado1 = potencia(2, 3);
