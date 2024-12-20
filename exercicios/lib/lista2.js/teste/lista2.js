@@ -43,4 +43,8 @@ export function divisaoInteira(dividendo, divisor) {
   export function nomeCompleto(nome, sobrenome) {
     return(nome + " " + sobrenome);
   }
+
+  export function quadrado(numero) {
+    return numero * numero;
+  }
   
