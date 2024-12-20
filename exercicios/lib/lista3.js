@@ -71,3 +71,16 @@ if (ano % 4 == 0 % 100 != 0) or (ano % 400 == 0)
     return False
 
 print(ano_bissexto(ano))  
+
+
+export function ehVolgal (caractere) {
+const vogais = 'aeiou'
+const caractereMinusculo = caractere.toLowerCase();
+}
+return vogais.includes(caractereMinusculo);
+function verificarVogalConsoante (caractere){
+  if(ehVolgal(caractere)){
+    return "Volgal"
+  } else } {
+    return "Consoante";
+  }
