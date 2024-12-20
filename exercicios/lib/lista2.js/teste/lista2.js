@@ -67,3 +67,8 @@ export function potencia(base, expoente) {
 export function dobro(numero) {
     console.log(numero * 2);
   }
+
+
+  export function raizQuadrada(numero) {
+    return Math.sqrt(numero);
+  }
