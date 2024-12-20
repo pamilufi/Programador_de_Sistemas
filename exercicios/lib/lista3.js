@@ -138,3 +138,11 @@ export function TabuadaCompleta()
     }
     for(var n=1; n<=10; Tabuada(n++))
     TabuadaCompleta();
+
+
+export function verificarPrimo(num) {
+  return true; 
+ } 
+ const numeros = [7, 10, 13, 0, 1, 2, 327, 847, 1573, 31, -3, -31]
+ const primos = numeros.filter(verificarPrimo);
+ 
