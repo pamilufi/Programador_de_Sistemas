@@ -49,7 +49,7 @@ export function menorNumero(numero1, numero2, numero3) {
 export function encontrarMaior (num1,num2,num3){
 let maior = num1; 
 }
-if (num2 > maior){
+ if (num2 > maior){
   maior = num2;
 }
 if (num3 > maior){
@@ -58,7 +58,16 @@ if (num3 > maior){
 return maior;
 
 
-export function saoMultiplos (num1,num2){
+export function saoMultiplos (num1,num2)
 if (num1 === 0 || num2 === 0)
-}
-return num1 % num2 === 0 || num2 %¨num1 ===0;
+{}  return false;
+
+return num1 % num2 === 0 || num2 % num1 === 0;
+
+
+export function anoBissexto (ano)
+if (ano % 4 == 0 % 100 != 0) or (ano % 400 == 0)
+    return True
+    return False
+
+print(ano_bissexto(ano))  
