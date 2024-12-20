@@ -23,3 +23,11 @@ export function multiplicar(num1, num2) {
 }
 return resultado
 
+
+export function calcularMedia(num1, num2, num3) {
+    let soma = Number(num1) + Number(num2) + Number(num3);
+    let media = soma / 3;
+    return media;
+}
+let media1 = calcularMedia(10, 20, 30);
+let media2 = calcularMedia(5, 15, 25);
