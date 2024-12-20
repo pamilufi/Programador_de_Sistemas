@@ -48,3 +48,7 @@ const array4 = [];
 const firstElement4 = array4.shift();
 
 export var arr = [1, 2, 3, 4, 5]
+
+
+export var numeros = [1, 2, 3,4,5];
+numeros.push(6);
