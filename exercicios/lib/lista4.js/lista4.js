@@ -46,3 +46,5 @@ const firstElement3 = array3.shift();
 
 const array4 = [];
 const firstElement4 = array4.shift();
+
+export var arr = [1, 2, 3, 4, 5]
