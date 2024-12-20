@@ -153,35 +153,57 @@ export function Tabuada(n) {
 }
 
 
-exportfunction encontrarPrimo(np) {
+export function encontrarPrimo(np) {
   if (np < 2) return false;
 
   for (var div = 2; div < np; div++) {
     if (np % div === 0) return false;
   }
   return true
-          
 
-export var carro1 = {
-    
-  Marca: "BMW",
-  Modelo: "320i",
-  Ano: 2025,
-  Cor: "Azul",
-  Chassi: 98310052352,
-  Proprietario: "Bruna Silva",
-  Motor: 3.0,
-  Combustão: "Gasolina/Alcool",
-  Portas: 4,
-  Carroceria: "Sedan",
-  Cambio: "Automatico", 
-  Potencia: "Turbo",
-  Direcao: "Hidraulica", 
-  Calibragempneu: 32,
-  Tracao: 4,
-  Aro: 20,
-  Classe: "Passeio/Turismo",
-  LocaldeFabricação: "China",
-  Velocidade: 0,
-  
-}
+
+  export var carro = {
+
+    Marca: "BMW",
+    Modelo: "320i",
+    Ano: 2025,
+    Cor: "Azul",
+    Chassi: 98310052352,
+    Proprietario: "Bruna Silva",
+    Motor: 3.0,
+    Combustão: "Gasolina/Alcool",
+    Portas: 4,
+    Carroceria: "Sedan",
+    Cambio: "Automatico",
+    Potencia: "Turbo",
+    Direcao: "Hidraulica",
+    Calibragempneu: 32,
+    Tracao: 4,
+    Aro: 20,
+    Classe: "Passeio/Turismo",
+    LocaldeFabricação: "China",
+    Velocidade: 0,
+
+  }
+
+
+  export var carro1 = {
+    velocidade: 0
+  };
+  var carro2 = {
+    velocidade: 0
+  };
+
+  function acelerar(carro) {
+    carro.velocidade += 5;
+  }
+
+
+  function frear(carro) {
+    carro.velocidade -= 13;
+
+    if (carro.velocidade < 0) {
+      carro.velocidade = 0;
+    }
+
+  }
