@@ -111,3 +111,10 @@ export function somaDosDigitos(num) {
     return soma;
 }
 
+
+export function maiorNumero(arr) {
+    if (arr.length === 0) {
+        return -Infinity;  
+    }
+    return Math.max(...arr);  
+}
