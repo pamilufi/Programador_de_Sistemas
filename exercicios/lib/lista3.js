@@ -84,3 +84,19 @@ function verificarVogalConsoante (caractere){
   } else } {
     return "Consoante";
   }
+
+
+  export function calcularNota(porcentagem) {
+    switch (true) {
+      case porcentagem >= 90:
+        return 'A';
+      case porcentagem >= 80:
+        return 'B';
+      case porcentagem >= 70:
+        return 'C';
+      case porcentagem >= 60:
+        return 'D'; 1 
+      default:
+        return 'F';
+    }
+  }
