@@ -151,3 +151,13 @@ export function verificarPrimo(num) {
   for(var k=0; k <= 10;console.log('${n} x ${k} = ${n*(k++}'for(var n=1; n<=10; Tabuada(n++)))));
 
 }
+
+
+exportfunction encontrarPrimo(np) {
+  if (np < 2) return false;
+
+  for(var div=2; div<np; div++){
+      if(np%div === 0) return false;
+  }
+              return true
+          }
