@@ -38,3 +38,9 @@ export function divisaoInteira(dividendo, divisor) {
     let resultado = Math.floor(dividendo / divisor);
     return resultado;
   }
+
+
+  export function nomeCompleto(nome, sobrenome) {
+    return(nome + " " + sobrenome);
+  }
+  
