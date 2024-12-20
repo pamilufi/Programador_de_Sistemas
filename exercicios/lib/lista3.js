@@ -131,24 +131,24 @@ export function imprimirTabuada(numero) {
 }
 
 
-export function TabuadaCompleta()  
-      function Tabuada(n) {
-      for(var k=0; k <= 10; k++) console.log('${n} x ${k} = ${n*k}') ;
-    
-    }
-    for(var n=1; n<=10; Tabuada(n++))
-    TabuadaCompleta();
+export function TabuadaCompleta()
+function Tabuada(n) {
+  for (var k = 0; k <= 10; k++) console.log('${n} x ${k} = ${n*k}');
+
+}
+for (var n = 1; n <= 10; Tabuada(n++))
+  TabuadaCompleta();
 
 
 export function verificarPrimo(num) {
-  return true; 
- } 
- const numeros = [7, 10, 13, 0, 1, 2, 327, 847, 1573, 31, -3, -31]
- const primos = numeros.filter(verificarPrimo);
- 
+  return true;
+}
+const numeros = [7, 10, 13, 0, 1, 2, 327, 847, 1573, 31, -3, -31]
+const primos = numeros.filter(verificarPrimo);
 
- export function Tabuada(n) {
-  for(var k=0; k <= 10;console.log('${n} x ${k} = ${n*(k++}'for(var n=1; n<=10; Tabuada(n++)))));
+
+export function Tabuada(n) {
+  for (var k = 0; k <= 10; console.log('${n} x ${k} = ${n*(k++}'for (var n = 1; n <= 10; Tabuada(n++)))));
 
 }
 
@@ -156,8 +156,32 @@ export function verificarPrimo(num) {
 exportfunction encontrarPrimo(np) {
   if (np < 2) return false;
 
-  for(var div=2; div<np; div++){
-      if(np%div === 0) return false;
+  for (var div = 2; div < np; div++) {
+    if (np % div === 0) return false;
   }
-              return true
-          }
+  return true
+          
+
+export var carro1 = {
+    
+  Marca: "BMW",
+  Modelo: "320i",
+  Ano: 2025,
+  Cor: "Azul",
+  Chassi: 98310052352,
+  Proprietario: "Bruna Silva",
+  Motor: 3.0,
+  Combustão: "Gasolina/Alcool",
+  Portas: 4,
+  Carroceria: "Sedan",
+  Cambio: "Automatico", 
+  Potencia: "Turbo",
+  Direcao: "Hidraulica", 
+  Calibragempneu: 32,
+  Tracao: 4,
+  Aro: 20,
+  Classe: "Passeio/Turismo",
+  LocaldeFabricação: "China",
+  Velocidade: 0,
+  
+}
