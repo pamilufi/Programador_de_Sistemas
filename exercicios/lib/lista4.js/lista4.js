@@ -21,3 +21,16 @@ console.log(array2.includes(25));
 
 const array3 = [100, 200, 300];
 console.log(array3.includes(100));
+
+export var ultimo1 = [1, 2, 3, 4, 5];
+var ultimo1Pop = ultimo1.pop();
+
+var ultimo2 = ["a", "b", "c"];
+var ultimo2Pop = ultimo2.pop();
+
+var ultimo3 = [10];
+var ultimo3Pop = ultimo3.pop();
+
+var ultimo4 = [];
+var ultimo4Pop = ultimo4.pop();
+
