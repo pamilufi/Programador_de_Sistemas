@@ -50,7 +50,7 @@ const firstElement4 = array4.shift();
 export var arr = [1, 2, 3, 4, 5]
 
 
-export var numeros = [1, 2, 3,4,5];
+export var numeros = [1, 2, 3, 4, 5];
 numeros.push(6);
 
 
@@ -75,62 +75,66 @@ const d2 = [];
 const d3 = d1.concat(d2);
 
 export const lista = [2, 4, 6, 8]
-function soma(a, b){
-  return a + b;
+function soma(a, b) {
+    return a + b;
 }
 
 const total = lista.reduce(soma, 0);
 
 
 export function somaPares(arr) {
-    return arr.filter(num => num % 2 === 0)  
-              .reduce((soma, num) => soma + num, 0); 
+    return arr.filter(num => num % 2 === 0)
+        .reduce((soma, num) => soma + num, 0);
 }
 
 export function calcularMedia(arr) {
     if (arr.length === 0) {
-        return 0;  
+        return 0;
     }
-    
+
     let soma = 0;
     for (let i = 0; i < arr.length; i++) {
         soma += arr[i];
     }
-    
+
     return soma / arr.length;
 }
 
 export function somaDosDigitos(num) {
     let soma = 0;
-    let numStr = num.toString();  
+    let numStr = num.toString();
 
     for (let i = 0; i < numStr.length; i++) {
-        soma += parseInt(numStr[i], 10);  
+        soma += parseInt(numStr[i], 10);
     }
-    
+
     return soma;
 }
 
 
 export function maiorNumero(arr) {
     if (arr.length === 0) {
-        return -Infinity;  
+        return -Infinity;
     }
-    return Math.max(...arr);  
+    return Math.max(...arr);
 }
 
 
 export function removerEspacos(str) {
-    return str.replace(/\s+/g, '');  
+    return str.replace(/\s+/g, '');
 }
 
 
 export function Palindromo(str) {
- 
+
     let str1 = str.toLowerCase().replace();
-    
+
     let str2 = str1.split('').reverse().join('');
-    
+
     return str1 === str2;
-  }
-  
+}
+
+
+export function Numeros(str) {
+    return !isNaN(str);
+}
