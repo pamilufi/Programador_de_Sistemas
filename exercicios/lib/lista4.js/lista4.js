@@ -138,3 +138,10 @@ export function Palindromo(str) {
 export function Numeros(str) {
     return !isNaN(str);
 }
+
+export function contar(str) {
+
+    let vogais = str.toLowerCase().match(/[aeiou]/g);
+    
+    return vogais ? vogais.length : 0;
+}
