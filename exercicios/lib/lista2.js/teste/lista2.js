@@ -63,3 +63,7 @@ export function potencia(base, expoente) {
     return Math.pow(base, expoente);
   }
   let resultado1 = potencia(2, 3);
+
+export function dobro(numero) {
+    console.log(numero * 2);
+  }
