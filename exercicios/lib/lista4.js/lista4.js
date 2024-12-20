@@ -100,4 +100,14 @@ export function calcularMedia(arr) {
     return soma / arr.length;
 }
 
-export
+export function somaDosDigitos(num) {
+    let soma = 0;
+    let numStr = num.toString();  
+
+    for (let i = 0; i < numStr.length; i++) {
+        soma += parseInt(numStr[i], 10);  
+    }
+    
+    return soma;
+}
+
