@@ -48,3 +48,7 @@ export function divisaoInteira(dividendo, divisor) {
     return numero * numero;
   }
   
+
+  export function restoDivisao(numero1, numero2) {
+    return numero1 % numero2;
+}
